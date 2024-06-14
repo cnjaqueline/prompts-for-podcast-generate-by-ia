@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="./assets/cover.png"
+    src="./assets/cover.jpg"
     width="300"
 />
 </p>
@@ -39,7 +39,7 @@ Utilizado uma esteira de prompts para gerar cada etapa do processo criativo.
 ## 💻 Tecnologias utilizadas no projeto
 
 - [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
+- [Leonardo.AI](https://app.leonardo.ai/)
 - [ElevenLabs](https://beta.elevenlabs.io/)
 - [Capcut](https://www.capcut.com/pt-br/)
 
@@ -47,8 +47,19 @@ Utilizado uma esteira de prompts para gerar cada etapa do processo criativo.
 
 - Roteiro gerado via chatgpt
 - Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
+- Leonardo.AI Para gerar capas
 - Capcut para tratar aúdio e adicionar sons de fundo
+
+## 🧠 Prompts
+
+
+ChatGPT：
+
+|   Ação   | prompt                                                                                                                                                                                                                                                                         |
+| :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  imagem  | a woman podcaster smiling with microphone, night city side by side, camera settings f/8, 1/100s, ISO 100, complex lighting, backlighting, dynamic cinematic lighting, global illumination, ultra-high resolution, realistic true color filter, 16K photo processing, cinematic, photorealistic, hyperrealistic, hyperrealistic, cinematic light, ultrarealistic photography, ultradetailed --ar 1:1 --v 5.2 |
+|  título  | Você é um roteirista de podcast, e vamos criar um podcast de tecnologia, focado em qualidade e teste de software e eu gostaria de uma ajuda sua para criar 5 sugestões de nomes criativos para um podcast de qualidade e teste de software feito por QAs, e que tenha algum trocadilho no nome O podcast vai falar sobre dicas e novidades sobre qualidade e teste de software e o que está acontecendo no mercado {REGRAS} - O nome deve ser enxuto, um nome e um subtítulo - O nome deve conter alguma palavra forte que remeta a qualidade {REGRAS NEGATIVAS} - Não quero que o título contenha palavras em inglês                                                         |
+| conteúdo | Você é um roteirista de podcast, e vamos criar um  roteiro de um podcast de tecnologia, focado em qualidade e teste de software cujo o nome é "QualiCast: Sua Fonte de Qualidade" e tem foco em qualidade e teste de software,  com o público alvo de analistas e engenheiros de QA. o formato do roteiro deve ser [INTRODUÇÃO] [CURIOSIDADE 1] [CURIOSIDADE 2] [FINALIZAÇÃO] {REGRAS} - no bloco [INTRODUÇÃO] substitua por uma introdução iguais as introduções dos vídeos do canal 'full cycle', como se fossem escritos pelo Wesley Willians - no bloco [CURIOSIDADE 1] substitua por uma curiosidade sobre qualidade - no bloco [CURIOSIDADE 2] sobre uma ferramenta para teste de software - no bloco [FINALIZAÇÃO] substitua por uma despedida cool com o final 'Eu sou Jaque e esse foi o QualiQuest dessa semana' - use termos de fácil explicação - O podcast vai ser apresentado somente por uma pessoa, chamada Jaque - O podcast deve ser curto {REGRAS NEGATIVAS} - Não use muitos termos técnicos - Não ultrapasse 3 minutos de duração|
 
 ## 📚 Materiais
 
@@ -63,7 +74,7 @@ Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` 
 
 - 🤖 1. Use os prompts de roteiro no `chagpt`
 - 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
+- 🤖 3. Use os prompts de artes no `Leonardo.AI`
 
 ## 👨‍💻 Expert
 
